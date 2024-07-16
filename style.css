@@ -94,9 +94,9 @@ main section {
     
     display: grid;
     grid-template-columns: repeat(7 , 1fr);
-    gap: 20px;
+    gap: 40px;
     border: 1px solid #ccc;
-    padding: 20px;
+    padding: 40px;
     align-items: center;
     
 }
@@ -131,9 +131,6 @@ main section {
     letter-spacing: 0.1px;
 
 }
-
-
-
 .card-discription{
     color: rgb(120, 120, 133);
     font-size: 14px;
@@ -155,9 +152,46 @@ main section {
     margin: 10px 0;
 }
 
+
+/* info style */
+
 .container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
     padding: 20px;
+}
+.info-content {
+    width: 600px;
+}
+/* .info-pic {
+    width: 400px;
+} */
+.info-title {
+    color: rgb(10, 8, 38);
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 0px;
+}
+.info-discription {
+    color: rgb(108, 108, 108);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+.info-btn {
+    background-color: rgb(224, 44, 109);
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+
 }
