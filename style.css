@@ -79,3 +79,25 @@ nav ul li a {
     line-height: 24px;
     letter-spacing: 0px;
 }
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section {
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* company style */
+.company {
+    
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+    gap: 20px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    align-items: center;
+    
+}
+
